@@ -48,52 +48,52 @@ void main() {
   //                   ),
   //                 ))))));
 
-  // runApp(MaterialApp(
-  //     home: Scaffold(
-  //   body: Center(
-  //       child: Container(
-  //     padding: EdgeInsets.all(40),
-  //     //  color: Colors.redAccent,
-  //     width: 200,
-  //     height: 200,
-  //     decoration: BoxDecoration(
-  //         // color: Colors.green,
-  //         // border: Border.all(color: Colors.green.shade900, width: 5),
-  //         borderRadius: BorderRadius.circular(20),
-  //         gradient: LinearGradient(
-  //             colors: [Colors.blue, Colors.orange],
-  //             begin: Alignment.topCenter,
-  //             end: Alignment.bottomCenter),
-  //         boxShadow: [
-  //           BoxShadow(
-  //               color: Colors.black45,
-  //               // offset:(-0,-0),
-  //               blurRadius: 10,
-  //               spreadRadius: 10),
-  //           BoxShadow(
-  //               color: Colors.black12,
-  //               // offset:(-0,-0),
-  //               blurRadius: 10,
-  //               spreadRadius: 10)
-  //         ]),
-  //   )),
-  // )));
-
   runApp(MaterialApp(
       home: Scaffold(
-    body: SafeArea(
-      child: Center(
-          child: Container(
-        child: Image.asset("images/img 1.jpg"),
-        width: 300,
-        height: 400,
-        decoration: BoxDecoration(
-          border: Border.all(color: Colors.cyan[400]!, width: 7),
+    body: Center(
+        child: Container(
+      padding: EdgeInsets.all(40),
+      //  color: Colors.redAccent,
+      width: 200,
+      height: 200,
+      decoration: BoxDecoration(
+          // color: Colors.green,
+          // border: Border.all(color: Colors.green.shade900, width: 5),
           borderRadius: BorderRadius.circular(20),
-        ),
-      )),
-    ),
+          gradient: LinearGradient(
+              colors: [Colors.blue, Colors.orange],
+              begin: Alignment.topCenter,
+              end: Alignment.bottomCenter),
+          boxShadow: [
+            BoxShadow(
+                color: Colors.black45,
+                // offset:(-0,-0),
+                blurRadius: 10,
+                spreadRadius: 10),
+            BoxShadow(
+                color: Colors.black12,
+                // offset:(-0,-0),
+                blurRadius: 10,
+                spreadRadius: 10)
+          ]),
+    )),
   )));
+
+  // runApp(MaterialApp(
+  //     home: Scaffold(
+  //   body: SafeArea(
+  //     child: Center(
+  //         child: Container(
+  //       child: Image.asset("images/img 1.jpg"),
+  //       width: 300,
+  //       height: 400,
+  //       decoration: BoxDecoration(
+  //         border: Border.all(color: Colors.cyan[400]!, width: 7),
+  //         borderRadius: BorderRadius.circular(20),
+  //       ),
+  //     )),
+  //   ),
+  // )));
 }
 
 
